@@ -1,0 +1,151 @@
+
+
+
+/** CSS RESET ***/
+#NavBar ul {
+	margin: 0 auto;
+}
+#NavBar ul li a{
+font-size: 11pt;
+font-family:myriad pro;
+color: #969696;
+text-transform: uppercase;
+}
+
+#NavBar ul li a:hover{
+	color: #464646;
+}
+
+
+/** CHUONG TRINH PARTNERSHIP ***/
+
+.confirm-btn {
+border-radius: 11px;
+border:none;
+background: rgb(244,132,65);
+background: linear-gradient(135deg, rgba(244,132,65,1) 0%, rgba(236,90,37,1) 100%);
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+padding: 10px 30px;
+}
+.sec{
+padding: 10rem 0;
+}
+
+
+/**BACKGROUND STYLES**/
+#section1{
+	background:url(images/sec1-BG.png) no-repeat left bottom;
+	background-size: contain;
+}
+#section2{
+background:url(images/sec2-BG.png) no-repeat center right;
+	background-size: contain;
+}
+
+#section5{
+background:url(images/sec4-BG.png) no-repeat center left;
+background-size:60%;
+}
+
+/**END BACKGROUND STYLES**/
+#section1 p{
+	margin-left: 20%;
+	padding-left: 35px;
+	background:url(images/sec1-quote.png) no-repeat;
+}
+
+/** QUYEN LOI ***/
+
+#section2 .text-box{
+	border-left: 1px solid #dbdbdb;
+	padding: 0 5em;
+}
+ #section2 nav ul li{
+ 	border-radius: 18px;
+ 	padding: 20px;
+ 	margin-bottom: 2em;
+ 	height: auto;
+ }
+
+ #section2 nav ul li img{
+ 	float: left;
+ 	padding-right: 15px;
+ }
+
+
+/** DOI TUONG TIEM NANG ***/
+
+#section3 .card img {
+	margin-bottom:2em ;
+}
+#section3 .card {
+padding: 50px 1.5em 30px 1.5em;
+border-radius:18px;
+}
+#section3 p.card-text {
+	font-weight: bold;
+}
+
+#section3 .sec3-wrap{
+	background: #FDF9F4;
+	margin:0px 5%;
+	border-radius: 18px;
+	padding: 8em 0 5em 0  ;
+}
+
+
+
+/** QUY TRINH ***/
+
+#section4 .card{
+	border:none;
+}
+
+
+
+#section5 ul li{
+	margin-bottom: 36px;
+	border-radius:18px;
+
+}
+
+
+/*****  HOI VA DAP  *******/
+
+#section5 .sec5-wrap{
+	padding: 0 5rem;
+}
+#section5 ul li{
+	background:white;
+}
+#section5 ul li span{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: xx-large;
+	color: #FFD9AD;
+	margin-right: 20px;
+}
+
+footer {
+	background: url(images/footer-BG.png) no-repeat center;
+	background-position: top right ;
+	background-size:cover ;
+	height: 1280px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+#section3 .card:nth-child(2){
+	margin: 0px 2em;
+}
+#section4 .card:nth-child(2){
+	margin: 0 50px;
+}
+#section5 ul li{
+	width: 70%;
+}
+
+
